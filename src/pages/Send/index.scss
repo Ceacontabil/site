@@ -1,0 +1,36 @@
+a{
+    text-decoration: none!important;
+}
+
+.img-fluid{
+    max-width: 430px!important;
+}
+
+.thank{
+    margin-left: 30px;
+}
+
+.thank i{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.thank button{
+    width: auto!important;
+}
+
+.send-page{
+    height: 100vh;
+}
+
+@media(max-width: 991px) {
+    .thank{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 576px) {
+    .img-fluid{
+        max-width: 290px!important;
+    }
+}
