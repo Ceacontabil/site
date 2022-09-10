@@ -413,7 +413,11 @@ input::-webkit-inner-spin-button {
 
 #perguntas .accordion-container{
     margin: 80px auto 40px;
-    max-width: 600px;
+    max-width: 1200px;
+}
+
+#perguntas .accordion-body p{
+    margin-bottom: 20px;
 }
 
 .accordion-button:hover{
