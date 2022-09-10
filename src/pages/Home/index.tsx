@@ -74,7 +74,7 @@ export default function Home() {
                             </div>
                         </div>
                                                 
-                        <form method='POST' action='https://formsubmit.co/ceacontabill@gmail.com' onSubmit={handleSubmit} data-aos='fade-left'>
+                        <form method='POST' action='https://formsubmit.co/ceacontabill@gmail.com' onSubmit={handleSubmit} data-aos='zoom-in'>
                             <div className='form-field form-title'>
                                 <h3>Ficou interessado?</h3>
                                 <p>Tire suas dúvidas através deste formulário.</p>
