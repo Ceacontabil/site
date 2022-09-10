@@ -21,7 +21,7 @@ jobs:
           npm ci
           else
           npm i
-          fi
+          elif
           npm run build
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
