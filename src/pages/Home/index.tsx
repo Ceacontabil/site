@@ -67,9 +67,9 @@ export default function Home() {
                             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             In vel nihil commodi reprehenderit consequatur perspiciatis?</p>
                             <div className='social-media' >
-                                <a href='https://facebook.com/ceacontabil' target='_blank' ><i className='bi bi-facebook'></i></a>
-                                <a href='https://instagram.com/ceacontabil' target='_blank' ><i className='bi bi-instagram'></i></a>
-                                <a href='#' target='_blank' ><i className='bi bi-linkedin' ></i></a>
+                                <Link to='https://facebook.com/ceacontabil' target='_blank' ><i className='bi bi-facebook'></i></Link>
+                                <Link to='https://instagram.com/ceacontabil' target='_blank' ><i className='bi bi-instagram'></i></Link>
+                                <Link to='#' target='_blank' ><i className='bi bi-linkedin' ></i></Link>
                             </div>
                         </div>
                                                 
@@ -339,7 +339,7 @@ export default function Home() {
                         <div className='cta-2' data-aos="flip-right" >
                             <p>Organize a rotina da sua empresa para você ter mais tempo livre para gerenciar o seu negócio</p>
 
-                            <a href='#home' className='button'>Entrar em Contato</a>
+                            <Link to='#home' className='button'>Entrar em Contato</Link>
 
                             <span>Nossos especialistas vão entrar em contato com você ainda hoje.</span>
                         </div>
@@ -361,7 +361,7 @@ export default function Home() {
 
 
             <div className='wpp'>
-                <a href='https://wa.me/21966236818?text=Boa%20Tarde!!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!!'><i className='bi bi-whatsapp'></i></a>
+                <Link to='https://wa.me/21966236818?text=Boa%20Tarde!!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!!'><i className='bi bi-whatsapp'></i></Link>
             </div>
             
         </>
