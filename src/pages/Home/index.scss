@@ -559,6 +559,13 @@ input::-webkit-inner-spin-button {
 
 @media(max-width: 576px) {
 
+    #home .intro {
+        width: auto!important;
+        padding: 0px 45px!important;
+        display: flex;
+        flex-direction: column;
+    }
+
     #servicos .title-1{
         margin-bottom: 35px!important;
     }
@@ -581,7 +588,7 @@ input::-webkit-inner-spin-button {
     }
 
     .home .intro h1{
-        font-size: 23px;
+        font-size: 29px;
     }
 
     #servicos .container-1 .col-service .box {
