@@ -519,6 +519,10 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 992px){
 
+    .navbar-1 .container-1 .numbers {
+        margin: 0px;
+    }
+
     .logo-1{
         margin-bottom: 15px;
     }
@@ -536,7 +540,7 @@ input::-webkit-inner-spin-button {
     #cta-end .container-1 .cta-desc,
     #sobre .container-1 .co-1,
     .home .intro{
-        margin-bottom: 70px;
+        margin: 70px 0px;
     }
 
     #sobre .container-1 .co-2{
@@ -554,6 +558,20 @@ input::-webkit-inner-spin-button {
 }
 
 @media(max-width: 576px) {
+
+    #servicos .title-1{
+        margin-bottom: 35px!important;
+    }
+
+    #servicos .container-1 .col-service{
+        margin-top: 25px 0!important;
+    }
+
+    #servicos .container-1 .col-service .box {
+        margin: 25px 0!important;
+        height: auto;
+    }
+
     p, a {
       font-size: 11px!important;  
     }
@@ -564,6 +582,10 @@ input::-webkit-inner-spin-button {
 
     .home .intro h1{
         font-size: 23px;
+    }
+
+    #servicos .container-1 .col-service .box {
+        flex-direction: column;
     }
 
     .home .form-title h2,
