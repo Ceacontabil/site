@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.scss';
 import Accordion from 'react-bootstrap/Accordion';
 const image = require('../../assets/time-contabilidade.jpg');
-
 
 export default function Home() {
 
@@ -68,9 +66,9 @@ export default function Home() {
                             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             In vel nihil commodi reprehenderit consequatur perspiciatis?</p>
                             <div className='social-media' >
-                                <Link to='https://facebook.com/ceacontabil' target='_blank' ><i className='bi bi-facebook'></i></Link>
-                                <Link to='https://instagram.com/ceacontabil' target='_blank' ><i className='bi bi-instagram'></i></Link>
-                                <Link to='#' target='_blank' ><i className='bi bi-linkedin' ></i></Link>
+                                <a href='https://facebook.com/ceacontabil' rel="noreferrer" target='_blank' ><i className='bi bi-facebook'></i></a>
+                                <a href='https://instagram.com/ceacontabil' rel="noreferrer" target='_blank' ><i className='bi bi-instagram'></i></a>
+                                <a href='https://linkedin.com/in/ceacontabil' rel="noreferrer" target='_blank' ><i className='bi bi-linkedin' ></i></a>
                             </div>
                         </div>
                                                 
@@ -80,7 +78,7 @@ export default function Home() {
                                 <p>Tire suas dúvidas através deste formulário.</p>
                             </div>
 
-                            <input type='hidden' name='_next' value='http://localhost:3000/send'  />
+                            <input type='hidden' name='_next' value='http://ceacontabil.github.io/site/send'  />
                             <input type='hidden' name='_subject' value='Novo e-mail Camilla!! [CeA - Contábil website]' />
                             <input type='hidden' name='_captcha' value='false' />
 
@@ -157,7 +155,7 @@ export default function Home() {
                     <div className='d-flex-1 wrap-1'>
 
                         <div className='col-service'>
-                            <div className='box d-flex-1' data-aos='zoom-out-right'>
+                            <div className='box d-flex-1' data-aos="zoom-in-up" >
                                 <div className='image'>
                                     <i className='bi bi-graph-up-arrow'></i>
                                 </div>
@@ -170,7 +168,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className='box d-flex-1' data-aos='zoom-out-right'>
+                            <div className='box d-flex-1' data-aos="zoom-in-up" >
                                 <div className='image'>
                                     <i className='bi bi-briefcase-fill'></i>
                                 </div>
@@ -183,7 +181,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className='box d-flex-1' data-aos='zoom-out-right'>
+                            <div className='box d-flex-1' data-aos="zoom-in-up">
                                 <div className='image'>
                                     <i className='bi bi-card-checklist'></i>
                                 </div>
@@ -203,7 +201,7 @@ export default function Home() {
                         </div>
 
                         <div className='col-service'>
-                            <div className='box d-flex-1' data-aos='zoom-out-left'>
+                            <div className='box d-flex-1' data-aos="zoom-in-up">
                                 <div className='image'>
                                     <i className='bi bi-pc-display-horizontal'></i>
                                 </div>
@@ -217,7 +215,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className='box d-flex-1' data-aos='zoom-out-left' >
+                            <div className='box d-flex-1' data-aos="zoom-in-up" >
                                 <div className='image'>
                                     <i className='bi bi-currency-exchange'></i>
                                 </div>
@@ -232,7 +230,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className='box d-flex-1' data-aos='zoom-out-left' >
+                            <div className='box d-flex-1' data-aos="zoom-in-up" >
                                 <div className='image'>
                                     <i className='bi bi-building'></i>
                                 </div>
@@ -250,7 +248,7 @@ export default function Home() {
 
                     </div>
 
-                    <div className='d-flex-1' data-aos='fade-down' data-aos-easing='linear' data-aos-duration='1500'>
+                    <div className='d-flex-1' >
                         <a href='#home' className='button'>Vamos realizar um serviço?</a>
                     </div>
                 </div>
@@ -340,7 +338,7 @@ export default function Home() {
                         <div className='cta-2' data-aos="flip-right" >
                             <p>Organize a rotina da sua empresa para você ter mais tempo livre para gerenciar o seu negócio</p>
 
-                            <Link to='#home' className='button'>Entrar em Contato</Link>
+                            <button onClick={scrollToTop} className='button'>Entrar em Contato</button>
 
                             <span>Nossos especialistas vão entrar em contato com você ainda hoje.</span>
                         </div>
@@ -362,7 +360,7 @@ export default function Home() {
 
 
             <div className='wpp'>
-                <Link to='https://wa.me/21966236818?text=Boa%20Tarde!!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!!'><i className='bi bi-whatsapp'></i></Link>
+                <a href='https://wa.me/21966236818?text=Boa%20Tarde!!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!!'><i className='bi bi-whatsapp'></i></a>
             </div>
             
         </>
