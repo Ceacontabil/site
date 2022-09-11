@@ -6,8 +6,8 @@ export default function App() {
     return(
         <HashRouter>
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/enviado' element={<Send/>}/>
+                <Route path='/site' element={<Home/>}/>
+                <Route path='/site/enviado' element={<Send/>}/>
             </Routes>
         </HashRouter>
     )
