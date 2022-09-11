@@ -78,7 +78,7 @@ export default function Home() {
                                 <p>Tire suas dúvidas através deste formulário.</p>
                             </div>
 
-                            <input type='hidden' name='_next' value='http://ceacontabil.github.io/site/send'  />
+                            <input type='hidden' name='_next' value='https://ceacontabil.github.io/site/send'  />
                             <input type='hidden' name='_subject' value='Novo e-mail Camilla!! [CeA - Contábil website]' />
                             <input type='hidden' name='_captcha' value='false' />
 
