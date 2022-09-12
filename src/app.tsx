@@ -6,7 +6,7 @@ export default function App() {
     return(
         <BrowserRouter basename='/site' >
             <Routes>
-                <Route path='/' element={ <Home/> } />
+                <Route path='/site' element={ <Home/> } />
                 <Route path='/enviado' element={ <Send/> } />
             </Routes>
         </BrowserRouter>
