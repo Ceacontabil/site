@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Link from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.scss';
@@ -130,6 +131,7 @@ export default function Home() {
                         <div className='co-1'>
                             <figure >
                                 <img src={image} alt='Equipe da empresa' />
+                                <Link to='/enviado'> click-me </Link>
                             </figure>
                                 
                         </div>
