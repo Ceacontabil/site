@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.scss';
@@ -63,9 +62,9 @@ export default function Home() {
                 <section id='home' className='home d-flex-1'>
                     <div className='container-1 d-flex-1 wrap-1' data-aos='fade-down-right'>
                         <div className='intro'>
-                            <h1 >Gestão Contábil para a sua Empresa.</h1>
-                            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            In vel nihil commodi reprehenderit consequatur perspiciatis?</p>
+                            <h1>Tudo o que você precisa em um só lugar.</h1>
+                            <p>Muito mais do que um escritório de Contabilidade, auxiliamos você a economizar tempo para focar nas 
+                               atividades chaves do seu negócio com confiança e tranquilidade.</p>
                             <div className='social-media' >
                                 <a href='https://facebook.com/ceacontabil' rel="noreferrer" target='_blank' ><i className='bi bi-facebook'></i></a>
                                 <a href='https://instagram.com/ceacontabil' rel="noreferrer" target='_blank' ><i className='bi bi-instagram'></i></a>
@@ -131,17 +130,18 @@ export default function Home() {
                         <div className='co-1'>
                             <figure >
                                 <img src={image} alt='Equipe da empresa' />
-                                <Link to='/enviado'> click-me </Link>
                             </figure>
                                 
                         </div>
 
                         <div className='co-2' data-aos='zoom-in-up'>
-                            <h2>Sobre o nosso time</h2>
-                            <p>Nosso propósito é simples: queremos colocar em prática toda nossa expertise adquirida em anos de experiência 
-                            e ajudar pessoas como nós, que estão buscando o sucesso da própria empresa. Nascemos com uma missão diferente dentro 
-                            do mercado e apresentamos uma dinâmica de contramão através de 3 pilares fundamentais: redução da burocracia, melhoria 
-                            do fluxo de trabalho e relacionamento com nossos clientes.</p>
+                            <h2>Missão, Visão e Valores</h2>
+                            <p> <strong> MISSÃO - </strong> Nosso propósito é simples: colocamos em prática todo nosso conhecimento adquirido em prol do
+                                 sucesso e crescimento dos nossos clientes e parceiros. Temos uma missão diferenciada dentro do mercado,  
+                                através de 3 pilares fundamentais: redução da burocracia, melhoria do fluxo de trabalho e relacionamento 
+                                com nossos clientes.</p>
+                            <p> <strong> VISÃO - </strong> Auxiliar, orientar e executar, de forma simples e pontual. </p>
+                            <p> <strong> VALORES - </strong> Temos um compromisso em fazer um trabalho com transparência e profissionalismo.</p>
                         </div>
                     </div>
 
@@ -210,9 +210,9 @@ export default function Home() {
 
                                 <div className='description'>
                                     <h5>Fiscal e DP</h5>
-                                    <p>Reunimos os departamentos Contábil, Fiscal e o Departamento Pessoal para facilitar a vida dos nossos,
-                                    clientes. Procuramos sempre levar o melhor serviço, no menor prazo possível para que todas as 
-                                    situações do dia-a-dia se resolvam com mais facilidade e simplicidade.
+                                    <p>Reunimos os departamentos Contábil, Fiscal e o Departamento Pessoal para facilitar a vida dos nossos 
+                                       clientes. Procuramos sempre levar o melhor serviço, no menor prazo possível para que todas as 
+                                       situações do dia-a-dia se resolvam com mais facilidade e simplicidade.
                                     </p>
                                 </div>
                             </div>
@@ -224,10 +224,8 @@ export default function Home() {
 
                                 <div className='description'>
                                     <h5>Imposto de Renda</h5>
-                                    <p>O imposto sobre a renda ou imposto sobre o rendimento é um tributo existente em vários países, 
-                                    em que cada contribuinte, seja ele pessoa física (PF) ou pessoa jurídica (PJ). Todo cidadão é obrigado 
-                                    a pagar uma certa porcentagem de sua renda para o governo. Nós fazemos declarações para pessoas físicas 
-                                    (IRPF), sempre buscando facilitar a vida dos nossos clientes.
+                                    <p>O imposto sobre a renda ou imposto sobre o rendimento é um tributo existente em vários países. Nós fazemos 
+                                       declarações para pessoas físicas <strong>(IRPF)</strong>, sempre buscando facilitar a vida dos nossos clientes
                                     </p>
                                 </div>
                             </div>
