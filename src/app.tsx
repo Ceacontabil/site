@@ -4,9 +4,9 @@ import Send from './pages/Send.tsx';
 
 export default function App() {
     return(
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL+'/'}>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route exact path='/' element={<Home/>}/>
                 <Route path='/received' element={<Send/>}/>
             </Routes>
         </HashRouter>
