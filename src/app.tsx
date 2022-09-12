@@ -4,7 +4,7 @@ import Send from './pages/Send';
 
 export default function App() {
     return(
-        <BrowserRouter basename={process.env.PUBLIC_URL+'/'}>
+        <BrowserRouter basename='/site' >
             <Routes>
                 <Route path='/' element={ <Home/> } />
                 <Route path='/enviado' element={ <Send/> } />
