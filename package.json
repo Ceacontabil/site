@@ -1,8 +1,8 @@
 {
   "name": "site",
   "version": "0.1.0",
-  "homepage": "site/",
-  "private": true,
+  "homepage": "https://ceacontabil.github.io/site",
+  "private": false,
   "resolutions": {
     "autoprefixer": "10.4.5"
   },
