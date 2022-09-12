@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.tsx';
-import Send from './pages/Send.tsx';
+import Home from './pages/Home';
+import Send from './pages/Send';
 
 export default function App() {
     return(
