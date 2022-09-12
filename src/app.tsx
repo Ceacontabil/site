@@ -6,8 +6,8 @@ export default function App() {
     return(
         <HashRouter basename={process.env.PUBLIC_URL+'/'}>
             <Routes>
-                <Route exact path='/' element={<Home/>}/>
-                <Route path='/received' element={<Send/>}/>
+                <Route path='/' element={ <Home/> } />
+                <Route path='/enviado' element={ <Send/> } />
             </Routes>
         </HashRouter>
     )
