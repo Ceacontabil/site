@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.e3d3ddb2.css",
+    "main.css": "/site/static/css/main.b3fada69.css",
     "main.js": "/site/static/js/main.6a2b9d65.js",
     "static/media/logo-bg-white.png": "/site/static/media/logo-bg-white.9e69472800db5ed99436.png",
     "static/media/logo-no-bg.png": "/site/static/media/logo-no-bg.07fa26fd2e5678b8909d.png",
@@ -10,11 +10,11 @@
     "static/media/bootstrap-icons.woff2?": "/site/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/time-contabilidade.jpg": "/site/static/media/time-contabilidade.a6f9145e8ffc194e7c10.jpg",
     "index.html": "/site/index.html",
-    "main.e3d3ddb2.css.map": "/site/static/css/main.e3d3ddb2.css.map",
+    "main.b3fada69.css.map": "/site/static/css/main.b3fada69.css.map",
     "main.6a2b9d65.js.map": "/site/static/js/main.6a2b9d65.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3d3ddb2.css",
+    "static/css/main.b3fada69.css",
     "static/js/main.6a2b9d65.js"
   ]
 }
