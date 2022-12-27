@@ -12,10 +12,6 @@ export default function Home() {
     const [telefone, setTelefone] = useState('');
     const [mensagem, setMensagem] = useState('');
 
-    const handleSubmit = (e: any) => {
-        console.log(name, email, telefone, mensagem);
-    };
-
     useEffect(() => {
         AOS.init();
         window.addEventListener('scroll', function(){
@@ -72,7 +68,7 @@ export default function Home() {
                             </div>
                         </div>
                                                 
-                        <form method='POST' action='https://formsubmit.co/ceacontabill@gmail.com' onSubmit={handleSubmit} data-aos='zoom-in'>
+                        <form method='POST' action='https://formsubmit.co/ceacontabill@gmail.com' data-aos='zoom-in'>
                             <div className='form-field form-title'>
                                 <h3>Ficou interessado?</h3>
                                 <p>Tire suas dúvidas através deste formulário.</p>
