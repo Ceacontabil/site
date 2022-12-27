@@ -23,6 +23,7 @@ export default function Home() {
             const btn_top: any = this.document.querySelector('.scroll-up-btn');
             btn_top.classList.toggle('show', window.scrollY > 60);
         })
+        console.log(process.env.PUBLIC_URL+'/enviado');
     }, []);
 
     function scrollToTop() {
