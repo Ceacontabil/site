@@ -69,13 +69,13 @@ export default function Home() {
                             </div>
                         </div>
                                                 
-                        <form method='POST' action='https://formsubmit.co/ceacontabill@gmail.com' data-aos='zoom-in'>
+                        <form method='POST' action='https://formsubmit.co/ceacontabil@gmail.com' data-aos='zoom-in'>
                             <div className='form-field form-title'>
                                 <h3>Ficou interessado?</h3>
                                 <p>Tire suas dúvidas através deste formulário.</p>
                             </div>
 
-                            <input type='hidden' name='_next' value={process.env.PUBLIC_URL+'/enviado'}  />
+                            <input type='hidden' name='_next' value={'https://ceacontabil.github.io/site/enviado'}  />
                             <input type='hidden' name='_subject' value='Novo e-mail Camilla!! [CeA - Contábil website]' />
                             <input type='hidden' name='_captcha' value='false' />
 
