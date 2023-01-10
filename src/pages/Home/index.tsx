@@ -1,4 +1,4 @@
-import React, { useEffect, useState, setTimeOut } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.scss';
