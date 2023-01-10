@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, setTimeOut } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.scss';
@@ -31,8 +31,8 @@ export default function Home() {
     }
 
     function redirectToSend(){
-        setTimeOut(() => {
-            window.location.href = "https://ceacontabil.github.io/site/enviado";
+        setTimeout(() => {
+            window.location.href = 'https://https://ceacontabil.github.io/site/enviado'
         }, 1200)
     }
     
