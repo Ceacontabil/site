@@ -7,7 +7,7 @@ export default function App() {
         <BrowserRouter basename={process.env.PUBLIC_URL+'/'} >
             <Routes>
                 <Route path='/' element={ <Home/> } />
-                <Route path='/enviado' element={ <Send/> } />
+                <Route path='enviado' element={ <Send/> } />
             </Routes>
         </BrowserRouter>
     )
