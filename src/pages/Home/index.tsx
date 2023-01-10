@@ -30,6 +30,12 @@ export default function Home() {
         window.scroll({top: 0, left: 0, behavior: 'smooth'});
     }
 
+    function redirectToSend(){
+        setTimeOut(() => {
+            window.location.href = "https://ceacontabil.github.io/site/enviado";
+        }, 1200)
+    }
+    
     return(
         
         <>
@@ -74,10 +80,10 @@ export default function Home() {
                                 <h3>Ficou interessado?</h3>
                                 <p>Tire suas dúvidas através deste formulário.</p>
                             </div>
-
-                            <input type='hidden' name='_next' value='https://ceacontabil.github.io/site/enviado'/>
+                            
                             <input type='hidden' name='_subject' value='Novo e-mail Camilla!! [CeA - Contábil website]' />
                             <input type='hidden' name='_captcha' value='false' />
+                            <input type='hidden' name='_next' value='https://ceacontabil.github.io/site/enviado/ '/>
 
                             <div className='form-field d-flex-1'>
                                 <div className='icon-field'>
@@ -112,7 +118,7 @@ export default function Home() {
                             </div>
 
                             <div className='form-field d-flex-1'>
-                                <button className='button' type='submit'>
+                                <button className='button' type='submit' onClick={redirectToSend}>
                                     <i className='bi bi-send-check-fill'></i>
                                     <span>Enviar</span>
                                 </button>
