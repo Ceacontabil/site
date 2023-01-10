@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.5e15442b.css",
-    "main.js": "/site/static/js/main.4a3cc112.js",
+    "main.js": "/site/static/js/main.ee6d7dbe.js",
     "static/media/logo-bg-white.png": "/site/static/media/logo-bg-white.9e69472800db5ed99436.png",
     "static/media/logo-no-bg.png": "/site/static/media/logo-no-bg.07fa26fd2e5678b8909d.png",
     "static/media/cta-banner.png": "/site/static/media/cta-banner.dc8460990760067b8c7f.png",
@@ -11,10 +11,10 @@
     "static/media/time-contabilidade.jpg": "/site/static/media/time-contabilidade.a6f9145e8ffc194e7c10.jpg",
     "index.html": "/site/index.html",
     "main.5e15442b.css.map": "/site/static/css/main.5e15442b.css.map",
-    "main.4a3cc112.js.map": "/site/static/js/main.4a3cc112.js.map"
+    "main.ee6d7dbe.js.map": "/site/static/js/main.ee6d7dbe.js.map"
   },
   "entrypoints": [
     "static/css/main.5e15442b.css",
-    "static/js/main.4a3cc112.js"
+    "static/js/main.ee6d7dbe.js"
   ]
 }
