@@ -83,7 +83,7 @@ export default function Home() {
                             
                             <input type='hidden' name='_subject' value='Novo e-mail Camilla!! [CeA - Contábil website]' />
                             <input type='hidden' name='_captcha' value='false' />
-                            <input type='hidden' name='_next' value='https://ceacontabil.github.io/site/enviado/ '/>
+                            <input type='hidden' name='_next' value='/site/enviado/ '/>
 
                             <div className='form-field d-flex-1'>
                                 <div className='icon-field'>
